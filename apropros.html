@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/96dcb489df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- section acceuil -->
+    <section id="container2">
+      <header>
+        <div class="logo">
+          <p>Mac-Dylan KACOU</p>
+        </div>
+
+        <!-- menu responsive -->
+        <div class="menu-toggle"></div>
+
+        <ul class="menu">
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="apropros.html">À propos de moi</a></li>
+          <li><a href="mapassion.html">Ma passion</a></li>
+        </ul>
+      </header>
+
+      <!-- section a propos -->
+      <section id="a-propos">
+        <div>
+          <p class="tittle-section">À propos de moi</p>
+          <div class="description">
+            <div class="desc">
+              <h1 class="sub-tittle-section">Qui suis-je ?</h1>
+              <p>
+                Bonjour, Je suis Kacou Bokame Mac-Dylan, étudiant en Master 1 à
+                l’Université Félix Houphouët-Boigny, au sein de la Faculté de
+                Mathématiques-Informatique, filière Base de Données et Génie
+                Logiciel. Mon parcours académique a débuté par trois années de
+                licence (2019-2022), couronnées par une mention Assez-Bien lors
+                de ma soutenance. Mon intérêt pour le développement logiciel
+                s’est renforcé à travers un stage en entreprise de trois mois,
+                où j’ai pu appliquer mes connaissances et acquérir une précieuse
+                expérience professionnelle. Passionné par la performance et
+                l’innovation, je m’efforce aujourd’hui de concevoir des
+                solutions logicielles robustes, évolutives et adaptées aux défis
+                du numérique. Toutefois, conscient de l'importance d’une
+                formation approfondie en développement web et mobile, je
+                souhaite intégrer votre programme afin d'affiner mes
+                compétences, combler mes lacunes et mieux me préparer au monde
+                professionnel. Je vous remercie pour votre attention et
+                l’opportunité que vous m’offrez.
+              </p>
+            </div>
+            <img src="images/photo.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <p>Mac-Dylan KACOU</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script>
+      var menu_toggle = document.querySelector("header .menu-toggle");
+      var menu = document.querySelector("header .menu");
+      menu_toggle.onclick = function () {
+        menu_toggle.classList.toggle("active");
+        menu.classList.toggle("responsive");
+      };
+    </script>
+  </body>
+</html>
