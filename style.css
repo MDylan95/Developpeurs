@@ -124,8 +124,8 @@ div.image {
 
 div.image img {
   max-width: 100%;
-  width: 200px; /* Taille fixe */
-  height: 200px; /* Même hauteur pour toutes les images */
+  width: 200px;
+  height: 200px;
   display: block;
 }
 
